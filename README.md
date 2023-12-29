@@ -24,3 +24,10 @@ In addition to manually review for hyperparameter optimization, I also applied n
 <img width="829" alt="Screenshot 2023-12-12 at 09 20 35" src="https://github.com/trungle14/Breast_Cancer_Prediction/assets/143222481/7422ed4f-7515-4caa-93b1-c93a298f870d">
 
 
+<img width="432" alt="Screenshot 2023-12-28 at 22 55 55" src="https://github.com/trungle14/Breast_Cancer_Prediction/assets/143222481/36d2bbe9-8493-46a6-8266-0ade1845703d">
+
+<img width="398" alt="Screenshot 2023-12-28 at 22 56 51" src="https://github.com/trungle14/Breast_Cancer_Prediction/assets/143222481/5c93dbe0-57ee-44be-9d6e-a9464b8036eb">
+
+<img width="458" alt="Screenshot 2023-12-28 at 23 01 48" src="https://github.com/trungle14/Breast_Cancer_Prediction/assets/143222481/507757f7-2859-47fd-9a6c-0e08abc89cef">
+
+<img width="497" alt="Screenshot 2023-12-28 at 23 02 26" src="https://github.com/trungle14/Breast_Cancer_Prediction/assets/143222481/0a728246-5f43-48be-807b-3fd125e183a2">
