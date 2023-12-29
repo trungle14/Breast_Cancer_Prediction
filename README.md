@@ -10,13 +10,11 @@ Enhancing Accuracy: Machine learning algorithms can process vast amounts of data
 
 Personalized Treatment Plans: Machine learning can help in predicting the most effective treatment plans for individual patients based on their unique genetic makeup and the characteristics of their tumors. This personalized approach can improve treatment efficacy and reduce side effects.
 
-Resource Optimization: Machine learning can streamline diagnostic processes, reducing the workload on radiologists and healthcare professionals. By automating initial screenings, healthcare resources can be more effectively allocated.
-
 Data: https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.data
 
 Description: https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.names
 
-Specifically, build a decision tree, logistic regression and k-nearest neighbors, Support vector machine that predicts the diagnose
+In this problem, I tried multiple machine learning model such as decision tree, logistic regression and k-nearest neighbors, Support vector machine that predicts the diagnose
 result based on ten real-valued features (mean, standard error, and "worst" or largest of these features).
 Explore how well different model perform for several different parameter values. 
 
