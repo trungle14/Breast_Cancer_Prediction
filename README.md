@@ -26,3 +26,19 @@ In addition to manually review for hyperparameter optimization, I also applied n
 
 
 <img width="702" alt="Screenshot 2023-12-28 at 23 10 34" src="https://github.com/trungle14/Breast_Cancer_Prediction/assets/143222481/132bda0e-e76c-49b5-89f5-a1690d584457">
+
+
+
+
+
+**Explorations**
+ 
+In general, based on the accuracy and F1 score among 3 models, decision tree give us the most optimal predictive model with the performance at 99%, even after we comparing with SVM model. 
+
+
+In this scenario, a missed diagnosis in breast cancer may cause more serious consequence, a high recall means that there are fewer false negatives. Thus, I would like to use Recall as the main performance matrix, decision tree perform quite well with the Recall > 95% while Recall of Logistic regression and kNN are approximately 92%.
+
+In addition, we also look at the feature importance in Decision tree and coefficient in Logistic regression to see which factors are the most important to the prediction of breast cancer. 
+- Apparently, **Worst Radius**,**Worst Concave Point**  appears in the top 5 important factors in the model, which can help medical professionals good implication to predict the patient. 
+- Moreover, based on the above decision tree we can easily notice that if **Worst Radius <= 16.79** and **Worst Concave Point <= 0.136** , **SE Radius < 1.048** has more probability to be maglinant
+- We are also able to seperate 2 groups of factor  having different effect on breast cancer based on the coeficient of logistic model almost factor show positive relationship the more or higher they are, the more probability of breast cancer maglinant, however, it is opposite to the groups of factor of **Compactness** and **Fractal Dimension**
