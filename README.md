@@ -30,10 +30,13 @@ In addition to manually review for hyperparameter optimization, I also applied n
 
 
 
+<img width="875" alt="Screenshot 2023-12-30 at 10 20 42" src="https://github.com/trungle14/Breast_Cancer_Prediction/assets/143222481/cf188bbd-b328-47af-a678-e66381472dcb">
+
+
 
 **Explorations**
  
-In general, based on the accuracy and F1 score among 3 models, decision tree give us the most optimal predictive model with the performance at 99%, even after we comparing with SVM model. 
+In general, based on the accuracy and F1 score among 4 models, decision tree give us the most optimal predictive model with the performance at 99%, even after we comparing with SVM model. 
 
 
 In this scenario, a missed diagnosis in breast cancer may cause more serious consequence, a high recall means that there are fewer false negatives. Thus, I would like to use Recall as the main performance matrix, decision tree perform quite well with the Recall > 95% while Recall of Logistic regression and kNN are approximately 92%.
