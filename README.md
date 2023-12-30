@@ -21,22 +21,32 @@ Explore how well different model perform for several different parameter values.
 This solution tried to detect when is overfitting and when is underfitting in order to optimize the best predictive performance. 
 In addition to manually review for hyperparameter optimization, I also applied nested cross-validation with multiple hyper parameter in the grid search aiming at maximizing the usage of different sub-dataset in training data, which may also reduce possibility of overfitting.
 
-<img width="829" alt="Screenshot 2023-12-12 at 09 20 35" src="https://github.com/trungle14/Breast_Cancer_Prediction/assets/143222481/7422ed4f-7515-4caa-93b1-c93a298f870d">
 
-
+**Confusion Matrix**
 
 <img width="702" alt="Screenshot 2023-12-28 at 23 10 34" src="https://github.com/trungle14/Breast_Cancer_Prediction/assets/143222481/132bda0e-e76c-49b5-89f5-a1690d584457">
 
 
+
+**Performance Summary** 
 
 
 <img width="875" alt="Screenshot 2023-12-30 at 10 20 42" src="https://github.com/trungle14/Breast_Cancer_Prediction/assets/143222481/cf188bbd-b328-47af-a678-e66381472dcb">
 
 
 
+
+In general, based on the accuracy and F1 score among 4 models, decision tree give us the most optimal predictive model with the performance at 99%  on the test dataset, while the other models achived at around 97%. For the further enhancement, we may consider tuning hyperparameter in SVM, however the problem has been almost resolved quite effectively with a significant hugh accuracy and F1-Score
+
+
+**Feature Importance** **Decision Tree**
+
+<img width="829" alt="Screenshot 2023-12-12 at 09 20 35" src="https://github.com/trungle14/Breast_Cancer_Prediction/assets/143222481/7422ed4f-7515-4caa-93b1-c93a298f870d">
+
+
+
 **Explorations**
  
-In general, based on the accuracy and F1 score among 4 models, decision tree give us the most optimal predictive model with the performance at 99%, even after we comparing with SVM model. 
 
 
 In this scenario, a missed diagnosis in breast cancer may cause more serious consequence, a high recall means that there are fewer false negatives. Thus, I would like to use Recall as the main performance matrix, decision tree perform quite well with the Recall > 95% while Recall of Logistic regression and kNN are approximately 92%.
